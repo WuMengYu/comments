@@ -18,7 +18,7 @@ class App extends Component {
                <Header />
                <Route exact path='/' component={PostList}  />
                <Route path='/post/new' component={NewPost} />
-               <Route exact path='/post/:id' component={ShowPost} />
+               <Route path='/post/:id/show' component={ShowPost} />
                <Route path='/post/:id/edit' component={EditPost} />
              </div>
           </Router>

@@ -61,7 +61,7 @@ class ShowPost extends Component {
         <div style={styles.title}>{this.state.post.title}</div>
         <div style={styles.text}>{this.state.post.content}</div>
       </div>
-    );
+    )
   }
 }
 

@@ -12,11 +12,8 @@ import Settings from '../Settings'
         props.history.push('/')
       })
     }
-
-
-    return(
+  return(
       <div>
-
         <div className="content"></div>
         <div className="title">写文章</div>
         <Form publishPost={publishPost} label='发布文章' />

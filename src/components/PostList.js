@@ -81,7 +81,7 @@ class PostList extends React.Component{
           <div style={styles.content} key={post._id}>
             <div style={styles.title}>{post.title}</div>
             <div style={styles.actions}>
-              <Link to={`/post/${post._id}`} style={styles.link}>查看</Link>
+              <Link to={`/post/${post._id}/show`} style={styles.link}>查看</Link>
               <Link to={`/post/${post._id}/edit`} style={styles.link}>编辑</Link>
               <Link to='' style={styles.link} onClick={this.handleClick.bind(this, post._id)}>删除</Link>
             </div>
